@@ -8,4 +8,5 @@ Using machine learning, we can predict the fatigue strength of steel based on it
 
 # Contributors
 Marisa You (Materials Science & Engineering, Northwestern University)
+
 James Whang (Computer Science, Northwestern University)
