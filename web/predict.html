@@ -2,7 +2,7 @@
 	<head>
         <title>The Steel Fatigue Predictor</title>
         <!-- jQuery -->
-        <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
         <!-- Bootstrap stuff -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
@@ -32,13 +32,92 @@
         <div class="container">
             <h1 class="text-center">The Steel Fatigue Predictor</h1>
             <br>
-            <div class="row text-center">
-                <p>Here you can predict the fatigue strength of steel using our model. <b>Leave the input box blank if you are unsure.</b> 
-                <form>
-                    <input type="text">
-                </form>
-                    
+            <p>Here you can predict the fatigue strength of steel using our model. <b>Leave the input box blank if you are unsure.</b> 
+            
+            <div class="row col-md-6">
+                <div class="row">
+                    C [Carbon %] <input class="input C"type="text">
+                </div>
+                <div class="row">
+                    Si [Silicon %] <input class="input Si" type="text">
+                </div>
+                <div class="row">
+                    Mn [Manganese %] <input class="input Mn" type="text">
+                </div>
+                <div class="row">
+                    P [Phosphorus %] <input class="input P" type="text">
+                </div>
+                <div class="row">
+                    S [Sulphur %] <input class="input S" type="text">
+                </div>
+                <div class="row">
+                    Ni [Nickel %] <input class="input Ni" type="text">
+                </div>
+                <div class="row">
+                    Cr [Chromium %] <input class="input Cr" type="text">
+                </div>
+                <div class="row">
+                    Cu [Copper %] <input class="input Cu" type="text">
+                </div>
+                <div class="row">
+                    Mo [Molybdenum %] <input class="input Mo" type="text">
+                </div>
+                <div class="row">
+                    NT [Normalizing Temperature] <input class="input NT" type="text">
+                </div>
+                <div class="row">
+                    THT [Through Hardening Temperature] <input class="input THT" type="text">
+                </div>
+                <div class="row">
+                    THt [Through Hardening Time] <input class="input THtt" type="text">
+                </div>
+                <div class="row">
+                    THQCr [Cooling Rate for Through Hardening] <input class="input THQCr" type="text">
+                </div>
+                <div class="row">
+                    CT [Carburization Temperature] <input class="input CT" type="text">
+                </div>
+                <div class="row">
+                    Ct [Carburization Time] <input class="input Ctt" type="text">
+                </div>
+                <div class="row">
+                    DT [Diffusion Temperature] <input class="input DT" type="text">
+                </div>
+                <div class="row">
+                    Dt [Diffusion Time] <input class="input Dtt" type="text">
+                </div>
+                <div class="row">
+                    QmT [Quenching Media Temperature for Carburization] <input class="input QmT" type="text">
+                </div>
+                <div class="row">
+                    TT [Tempering Temperature] <input class="input TT" type="text">
+                </div>
+                <div class="row">
+                    Tt [Tempering Time] <input class="input Ttt" type="text">
+                </div>
+                <div class="row">
+                    TCr [Cooling Rate for Tempering] <input class="input TCr" type="text">
+                </div>
+                <div class="row">
+                    RedRatio [Reduction Ratio (Ingot to Bar)] <input class="input RedRatio" type="text">
+                </div>
+                <div class="row">
+                    dA [Area Proportion of Inclusions Deformed by Plastic Work] <input class="input dA" type="text">
+                </div>
+                <div class="row">
+                    dB [Area Proportion of Inclusions Occuring in Discontinous Array] <input class="input dB" type="text">
+                </div>
+                <div class="row">
+                    dC [Area Proportion of Isolated Inclusions] <input class="input dC" type="text">
+                </div>
+            </div>
+            <div class="row col-md-6 prediction">
+                <button class="predict">Predict</button>
             </div>
         </div>
+        <div class="col-md-6">
+            
+        </div>
+        <script src="./scripts/predict.js"></script>
     </body>
 </html>
