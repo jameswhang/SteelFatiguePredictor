@@ -1,5 +1,7 @@
 ## The Steel Fatigue Predictor
 
+### Demo
+A <a href="http://steelpredictor.herokuapp.com">live demo</a> of this project is available.
 
 ### What it is
 The Materials Genome Initiative is a government-funded project that aims to bring down the development cycle for new materials. The steel segment of it involves low alloy, spring alloy, and carburized steels.
